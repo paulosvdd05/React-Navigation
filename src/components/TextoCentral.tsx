@@ -8,7 +8,7 @@ export default props => {
             flex:1,
             justifyContent:'center',
             alignItems:'center',
-            backgroundColor: props.corFunod || '#000'
+            backgroundColor: props.corFundo || '#000'
         }}>
             <Text style={{
                 fontSize:50,

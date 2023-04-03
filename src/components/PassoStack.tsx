@@ -16,7 +16,7 @@ export default props => {
 
                 {props.avancar
                     ? <Button title='Avançar'
-                        onPress={() => props.navigation.navigate(props.avancar)} />
+                        onPress={() => props.navigation.push(props.avancar)} />
                     : false}
             </View>
             <View style={{ flex: 1 }}>

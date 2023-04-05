@@ -30,7 +30,7 @@ export default props => (
         <Stack.Screen name="TelaC">
             {props => (
                 <PassoStack {...props} avancar="TelaC"  voltar>
-                    <TelaC />
+                    <TelaC {...props}/>
                 </PassoStack>
             )}
         </Stack.Screen>

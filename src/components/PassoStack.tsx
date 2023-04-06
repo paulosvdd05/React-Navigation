@@ -20,9 +20,7 @@ export default props => {
                         onPress={() => {
                             props.navigation.push(
                             props.avancar, 
-                            {
-                                numero: parseInt(Math.random() * 100)
-                            }
+                            props.avancarParams
                             )
                         }} 
                         />

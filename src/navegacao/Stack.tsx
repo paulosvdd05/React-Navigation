@@ -22,7 +22,7 @@ export default props => (
         </Stack.Screen>
         <Stack.Screen name="TelaB">
         {props => (
-                <PassoStack {...props} avancar="TelaC" voltar>
+                <PassoStack {...props} avancar="TelaC" avancarParams ={{numero:1007}}voltar>
                     <TelaB />
                 </PassoStack>
             )}

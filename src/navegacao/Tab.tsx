@@ -16,6 +16,6 @@ export default props => (
     }}>
         <Tab.Screen name='TelaA' component={TelaA} />
         <Tab.Screen name='TelaB' component={TelaB} />
-        <Tab.Screen name='TelaB' component={TelaC} />
+        <Tab.Screen name='TelaC' component={TelaC} />
     </Tab.Navigator>
 )
